@@ -6,10 +6,6 @@ The intent of this project is to take you step-by-step through the process of bu
 
 - All steps:
   - [Node.js](https://nodejs.org/en/)
-- Step Seven:
-  - [Docker app](https://www.docker.com/get-started)
-  - [Docker Hub account](https://hub.docker.com/)
-- Optional:
   - [Azure account](https://aka.ms/step-by-step-express-azure) (free tier works just fine 💖)
 
 ## Step Zero
@@ -109,19 +105,4 @@ Read more in the Step Six [README.md](./step-six/README.md)
 
 ## Step Seven
 
-- Dockerized
-  - Add `Dockerfile`
-  - Add `.dockerignore`
-- Add `host` variable to detect if `HOST` environment variable is defined, defaulting to `0.0.0.0` if not.
-  - Express now listens to the `host` as its host
-- Add `start` npm script, which can be called with `npm start`
-
-To run the Step Seven code:
-
-```bash
-# make sure your current working directory is the main directory of this repo
-cd step-seven
-node app.js
-```
-
-Read more in the Step Seven [README.md](./step-seven/README.md)
+- Deploy to [Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/quickstart-nodejs?pivots=platform-linux)
