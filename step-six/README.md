@@ -6,7 +6,7 @@ To do this, we need to add a function with four arguments (`(error, request, res
 
 ```
 app.use((error, request, response, next) => {
-  response.render('error', { error: error })
+  response.render('error', { problem: error })
 })
 ```
 
